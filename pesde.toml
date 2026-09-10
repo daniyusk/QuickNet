@@ -1,7 +1,15 @@
 name = "daniyusk/quicknet"
 version = "0.3.5"
-realm = "shared"
 description = "Highly optimized networking library for Roblox"
+license = "MIT"
 authors = ["daniyusk"]
-targets = { lib = "src/QuickNet.luau" }
-includes = ["src/QuickNet", "src/QuickNet.luau", "pesde.toml"]
+includes = [
+    "pesde.toml",
+    "README.md",
+    "LICENSE",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src/QuickNet.luau"
