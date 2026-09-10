@@ -12,4 +12,4 @@ includes = [
 
 [target]
 environment = "roblox"
-lib = "src/QuickNet.luau"
+lib = "src/QuickNet/init.luau"

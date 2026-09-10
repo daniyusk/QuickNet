@@ -6,4 +6,4 @@ registry = "https://github.com"
 realm = "shared"
 
 [files]
-include = ["src/QuickNet", "src/QuickNet.luau"]
+include = ["src/QuickNet"]
