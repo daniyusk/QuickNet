@@ -1,0 +1,9 @@
+[package]
+name = "proprietario/quicknet"
+description = "Highly optimized networking library for Roblox"
+version = "0.3.5"
+registry = "https://github.com"
+realm = "shared"
+
+[files]
+include = ["src/QuickNet", "src/QuickNet.luau"]
