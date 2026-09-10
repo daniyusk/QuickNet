@@ -5,6 +5,7 @@ license = "MIT"
 authors = ["daniyusk"]
 includes = [
     "pesde.toml",
+    "default.project.json",
     "README.md",
     "LICENSE",
     "src/**/*.luau",
