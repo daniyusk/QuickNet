@@ -2,4 +2,7 @@
 name = "daniyusk/quicknet"
 version = "0.3.5"
 realm = "shared"
-includes = ["src/QuickNet", "src/QuickNet.luau"]
+description = "Highly optimized networking library for Roblox"
+authors = ["daniyusk"]
+targets = { lib = "src/QuickNet.luau" }
+includes = ["src/QuickNet", "src/QuickNet.luau", "pesde.toml"]
